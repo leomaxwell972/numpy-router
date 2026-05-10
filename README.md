@@ -57,10 +57,10 @@ print(numpy_router.cache())
 
 ## How It Works
 ---
-
+```
 ┌──────────────────────────┐
-│ Python starts                      │
-│ site-packages loads .pth           │
+│ Python starts            │
+│ site-packages loads .pth │
 └───────────────┬──────────┘
                 │
                 ▼
@@ -86,5 +86,4 @@ print(numpy_router.cache())
                 ▼
       all further imports use
           real NumPy
-
-
+```
