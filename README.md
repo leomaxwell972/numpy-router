@@ -59,8 +59,8 @@ print(numpy_router.cache())
 ---
 
 ┌──────────────────────────┐
-│ Python starts                      │
-│ site-packages loads .pth           │
+│ Python starts            │
+│ site-packages loads .pth │
 └───────────────┬──────────┘
                 │
                 ▼
