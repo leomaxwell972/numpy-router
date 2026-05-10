@@ -1,0 +1,1 @@
+import sys, types, importlib; m = types.ModuleType("numpy"); m.__dict__["__numpy_router_shim__"] = True; sys.modules["numpy"] = m; importlib.import_module("numpy_router")
