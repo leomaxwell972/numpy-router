@@ -27,7 +27,7 @@ It works with embedded Python distributions, machine‑learning frameworks, and 
 `pip install numpy-router`
 
 
-Then place the provided `numpy_router.pth` file into your Python `site-packages` directory.
+It should automatically place the .pth needed in your site-packages
 
 ---
 
